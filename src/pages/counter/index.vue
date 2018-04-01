@@ -29,8 +29,8 @@ export default {
     }
   }
 }
-
 </script>
+
 <style>
 .counter-warp {
   text-align: center;

@@ -10,7 +10,7 @@
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
 	"appid": "wx3f8bd5efeff47001",
-	"projectname": "arroz",
+	"projectname": "fanta",
 	"condition": {
 		"search": {
 			"current": -1,
