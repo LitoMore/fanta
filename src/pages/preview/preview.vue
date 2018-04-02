@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="preview">
-      <button :color="'blue'" :text="'Blue Button'"></button>
+      <button :color="'primary'" :text="'primay button'"></button>
+      <button :color="'default'" :text="'default button'"></button>
     </div>
   </div>
 </template>
