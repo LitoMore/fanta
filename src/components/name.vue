@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <p class="card">
-      {{text}}
-    </p>
-  </div>
+  <text class="name">{{text}}</text>
 </template>
 
 <script>
@@ -13,7 +9,7 @@ export default {
 </script>
 
 <style scoped>
-.card {
-  padding: 10px;
+.name {
+  font-weight: 500px;
 }
 </style>

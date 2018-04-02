@@ -1,24 +1,45 @@
 <template>
-  <div>
-    <div class="preview">
-      <button :color="'primary'" :text="'primay button'"></button>
-      <button :color="'default'" :text="'default button'"></button>
+  <div class="container">
+    <div>
+      <btn :color="'preview primary'" :text="'primay'" />
+      <btn :color="'preview default'" :text="'default'" />
+      <btn :color="'preview blocked'" :text="'blocked'" />
+    </div>
+    <div>
+      <status :status="status" />
     </div>
   </div>
 </template>
 
 <script>
-import button from '@/components/button'
+import btn from '@/components/btn'
+import status from '@/components/status'
 
 export default {
   components: {
-    button
+    btn,
+    status
+  },
+
+  data: function () {
+    return {
+      status: {
+        avatar: {
+          src: '/static/testcase.png',
+          size: 'normal'
+        }
+      }
+    }
   }
 }
 </script>
 
-<style scoped>
+<style>
 .preview {
-  padding: 20px;
+  margin: 5px;
+}
+
+.center {
+  justify-content: space-around;
 }
 </style>
